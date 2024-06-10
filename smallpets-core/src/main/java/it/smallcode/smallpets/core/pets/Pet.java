@@ -320,7 +320,7 @@ public class Pet {
 
             try {
                 ProtocolLibrary.getProtocolManager().sendServerPacket(player, packetContainer);
-            } catch (InvocationTargetException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
 
