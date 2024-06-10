@@ -10,7 +10,7 @@ import it.smallcode.smallpets.v1_18.InventoryManager1_18;
 
 public class InventoryManager1_20 extends InventoryManager1_18 {
 
-    public InventoryManager1_19(double xpMultiplier) {
+    public InventoryManager1_20(double xpMultiplier) {
         super(xpMultiplier);
     }
 }

@@ -6,7 +6,7 @@ Class created by SmallCode
 
 */
 
-import it.smallcode.smallpets.v1_18.ProtocolLibUtils1_19;
+import it.smallcode.smallpets.v1_19.ProtocolLibUtils1_19;
 
 public class ProtocolLibUtils1_20 extends ProtocolLibUtils1_19 {
 

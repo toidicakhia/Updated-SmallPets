@@ -11,7 +11,7 @@ import it.smallcode.smallpets.v1_18.ListenerManager1_18;
 public class ListenerManager1_20 extends ListenerManager1_18 {
 
 
-    public ListenerManager1_19(double xpMultiplier, boolean useProtocollib) {
+    public ListenerManager1_20(double xpMultiplier, boolean useProtocollib) {
         super(xpMultiplier, useProtocollib);
     }
 }

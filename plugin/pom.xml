@@ -16,12 +16,17 @@
 
         <repository>
             <id>sk89q-repo</id>
-            <url>https://maven.sk89q.com/repo/</url>
+            <url>https://maven.enginehub.org/repo/</url>
         </repository>
 
         <repository>
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
+
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
 
     </repositories>
@@ -161,7 +166,6 @@
                     <include>translations/vi.yml</include>
                     <include>translations/es.yml</include>
                     <include>translations/fr.yml</include>
-                    <include>translations/hu.yml</include>
                 </includes>
             </resource>
             <resource>

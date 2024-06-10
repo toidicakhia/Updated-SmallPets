@@ -43,11 +43,6 @@
         </repository>
 
         <repository>
-            <id>bukkit-repo</id>
-            <url>https://repo.bukkit.org/content/groups/public/</url>
-        </repository>
-
-        <repository>
             <id>aikar</id>
             <url>https://repo.aikar.co/content/groups/aikar/</url>
         </repository>

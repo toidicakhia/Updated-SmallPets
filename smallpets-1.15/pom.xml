@@ -59,15 +59,14 @@
         <dependency>
             <groupId>com.github.dmulloy2</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>5.2.0</version>
+            <version>5.1.0</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>archyx</groupId>
-            <artifactId>aureliumskills</artifactId>
-            <version>LATEST</version>
-            <scope>provided</scope>
+            <groupId>com.github.Archy-x</groupId>
+            <artifactId>AureliumSkills</artifactId>
+            <version>Beta1.3.23</version>
         </dependency>
 
         <dependency>
