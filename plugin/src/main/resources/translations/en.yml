@@ -1,0 +1,104 @@
+translations:
+  noPerms: "You haven't got the permission to do that!"
+  pets_disabled_world: "Pets are disabled in this world"
+  convertToItem: "&7Convert to item"
+  inventoryFull: "&7Your inventory is full"
+  petSpawned: 'Your pet was summoned'
+  petDespawned: 'Your pet was despawned'
+  petNotUnlocked: "Pet not unlocked"
+  petNotRegistered: "Pet not registered"
+  notInteger: "Number must be a integer"
+  experienceSummary: '§fExperience Summary'
+  levelupText: '&eYour pet is now level &6&l%pet_level%&e!'
+  nextLevel: '&eYour pet needs &6%exp_next_level%&6 xp &eto reach level &6%pet_next_level%&e'
+  petUnlock: 'Unlocked %pet_type% pet!'
+  clickToSelect: '&6CLICK TO SELECT'
+  clickToDeselect: '&cCLICK TO DESELECT'
+  rightClickToUnlock: '&6RIGHT CLICK TO UNLOCK'
+  givePetUnlockItemSender: 'Gave the %pet_type% unlock item to %player%!'
+  givePetUnlockItemReceiver: 'You received the %pet_type% unlock item from %sender%!'
+  givePetSender: 'Gave the %pet_type% pet to %player%!'
+  givePetReceiver: 'You received the %pet_type% pet from %sender%!'
+  removePetSender: 'The %pet_type% pet was taken from %player%!'
+  removePetReceiver: 'Your %pet_type% pet was taken by %sender%!'
+  playerIsntOnline: "The player isn't online!"
+  userDataNotFound: "User data couldn't be found!"
+  commandIsOnlyForPlayers: "This command is only for players"
+  reloaded: 'Reloaded %type%'
+  maxLevel: '&d&kS&d MAX LEVEL &d&kS'
+  experienceMultiplier: 'Experience multiplier'
+  stats: 'Stats'
+  experienceBooster: 'Experience booster'
+  petNameFormat: "&7[%level%&7] &7%player_name%'s "
+  petNameFormatTwoS: "&7[%level%&7] &7%player_name%' "
+  petNameWithoutOwner: "&7[%level%&7] "
+  savingLanguage: "&7Saving %language%..."
+  savedLanguage: "&7Saved %language%!"
+  visibility:
+    hidePets: "&7Hide pets"
+    showPets: "&7Show pets"
+  pet:
+    all: 'all'
+    tiger: 'tiger'
+    penguin: 'penguin'
+    monkey: 'monkey'
+    skeleton: 'Skeleton'
+    panda: 'Panda'
+    fish: 'Fish'
+    silverfish: 'Silverfish'
+  petType:
+    combat: 'Combat pet'
+    mining: 'Mining pet'
+    farming: 'Farming pet'
+    fishing: 'Fishing pet'
+    foraging: 'Foraging pet'
+  ability:
+    damage_ability:
+      description: '&7Deal &c+%extraStat%%&7 more damage!'
+    health_ability:
+      description: '&7Get &a+%extraStat%&7 more health!'
+    aurelium_skills_health_ability:
+      description: '&7Get &a+%extraStat%&7 more health!'
+    water_speed_ability:
+      description: '&7Walk &a+%extraStat%%&7 faster in water!'
+    speed_in_biome_ability:
+      name: 'Natural habitat'
+      description: '&7Makes you faster in the %biomes% &7biomes'
+    dont_consume_arrow_ability:
+      description: "&c%extraStat%% &7chance not to consume arrows"
+    unbreakable_bow_ability:
+      name: 'Experienced'
+      description: "&7Your bow doesn't get damaged when shooting"
+    faster_mining_speed_ability:
+      name: 'Trained'
+      description: "&7Gives you a permanent &chaste &c%extraStat% &7effect"
+    heal_while_in_water_ability:
+      name: 'Natural habitat'
+      description: "&7Gives you a &cregeneration &c%extraStat% &7effect while in water"
+  inventory:
+    name: "&eSmallPets"
+    sort:
+      name: "&6Sort"
+      description: "&cNot implemented yet!"
+    recipebook:
+      name: "&6Recipe book"
+      description: "&cNot implemented yet!"
+    next:
+      name: "&7Next"
+      description: "&7Switches to the next page"
+    previous:
+      name: "&7Previous"
+      description: "&7Switches to the previous page"
+  sort:
+    none: "None"
+    level_highest: "Highest level"
+    level_lowest: "Lowest level"
+    type: "Type"
+    name: "Name"
+  commandIsNotForPlayers: "This command is not for players"
+  serverMustBeEmpty: "The server must be empty"
+  convert:
+    success: "&8[&a✓&8]&7 Successfully converted %name%!"
+    failed: "&8[&c✖&8]&7 Failed to convert %name% (%uuid%)!"
+    start: "Starting conversion..."
+    end: "Finished conversion!"

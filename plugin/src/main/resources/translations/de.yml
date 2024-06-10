@@ -1,0 +1,102 @@
+translations:
+  noPerms: 'Dafür hast du keine Rechte!'
+  pets_disabled_world: "Haustiere sind in dieser Welt deaktiviert"
+  petSpawned: 'Dein Haustier wurde beschwört'
+  petDespawned: 'Dein Haustier wurde eingepackt'
+  petNotUnlocked: 'Haustier wurde noch nicht freigeschalten'
+  notInteger: 'Zahl muss eine Ganzzahl sein'
+  experienceSummary: '§fErfahrungspunkte Zusammenfassung'
+  levelupText: '&eDein Haustier ist jet Level &6&l%pet_level%&e!'
+  nextLevel: '&eDein Haustier braucht noch &6%exp_next_level%&6 xp &eum Level &6%pet_next_level%&e zu erreichen'
+  petUnlock: '%pet_type% freigeschalten!'
+  petNotRegistered: "Haustier nicht registriert"
+  clickToSelect: '&6KLICKEN UM AUSZUWÄHLEN'
+  clickToDeselect: '&cKLICKEN UM ABZUWÄHLEN'
+  rightClickToUnlock: '&6RECHTSKLICKEN UM FREIZUSCHALTEN'
+  givePetSender: 'Das %pet_type% Haustier wurde %player% gegeben!'
+  givePetReceiver: 'Dir wurde das %pet_type% Haustier von %sender% gegeben!'
+  givePetUnlockItemReceiver: "Dir wurde der Gegenstand zum Freischalten vom %pet_type%Haustiers von %sender% gegeben!"
+  givePetUnlockItemSender: "Der Gegenstand zum Freischalten vom %pet_type% Haustier wurde %player% gegeben!"
+  removePetSender: 'Das %pet_type% Haustier wurde %player% genommen!'
+  removePetReceiver: 'Dir wurde das %pet_type% Haustier von %sender% genommen!'
+  playerIsntOnline: 'Der Spieler ist nicht online!'
+  userDataNotFound: 'Nutzerdaten wurden nicht gefunden!'
+  commandIsOnlyForPlayers: 'Dieser Befehl ist nur für Spieler'
+  reloaded: '%type% wurde neugeladen'
+  maxLevel: '&d&kS&d MAX LEVEL &d&kS'
+  experienceMultiplier: 'Erfahrungsmultiplikator'
+  stats: 'Statistiken'
+  experienceBooster: 'Erfahrungspunkte Booster'
+  petNameFormat: "&8[%level%&8] &7%player_name%s "
+  petNameFormatTwoS: "&8[%level%&8] &7%player_name%' "
+  pet:
+    tiger: 'Tiger'
+    penguin: 'Pinguin'
+    monkey: 'Affe'
+    panda: 'Panda'
+    fish: 'Fisch'
+    skeleton: 'Skelett'
+    silverfish: 'Silberfisch'
+  ability:
+    speed_in_biome_ability:
+      name: 'Natürlicher Lebensraum'
+      description: '&7Lässt dich in den %biomes% &7Biomen schneller laufen'
+    damage_ability:
+      description: '&7Mach &c+%extraStat%%&7 mehr schaden!'
+    faster_mining_speed_ability:
+      name: 'Trainiert'
+      description: '&7Gibt dir einen permanenten &cEile &c%extraStat% &7Effekt'
+    dont_consume_arrow_ability:
+      description: '&c%extraStat%% &7Chance keine Pfeile zu verbrauchen'
+    unbreakable_bow_ability:
+      description: '&7Dein Bogen bekommt beim benutzen keinen Schaden'
+      name: 'Erfahren'
+    heal_while_in_water_ability:
+      description: '&7Gibt dir einen &cRegeneration &c%extraStat% &7Effekt während du
+        im Wasser bist'
+      name: 'Natürlicher Lebensraum'
+    health_ability:
+      description: '&7Gibt dir &a+%extraStat%&7 mehr Leben'
+    aurelium_skills_health_ability:
+      description: '&7Gibt dir &a+%extraStat%&7 mehr Leben'
+  petType:
+    foraging: 'Holzfäller Haustier'
+    fishing: 'Fischen Haustier'
+    mining: 'Minenarbeiten Haustier'
+    farming: 'Landwirtschafts Haustier'
+    combat: 'Kampf Haustier'
+  convertToItem: '&7Konvertiere zu Gegenstand'
+  savingLanguage: '&7Speichere %language%...'
+  petNameWithoutOwner: '&7[%level%&7] '
+  inventoryFull: '&7Dein Inventar ist voll!'
+  savedLanguage: '&7Gespeichert %language%!'
+  inventory:
+    name: "&eSmallPets"
+    recipebook:
+      description: '&cNicht implementiert!'
+      name: '&6Rezeptbuch'
+    sort:
+      name: '&6Sortieren'
+      description: '&cNicht implementiert!'
+    next:
+      name: "&7Nächste Seite"
+      description: "&7Wechselt zur nächsten Seite"
+    previous:
+      name: "&7Letzte Seite"
+      description: "&7Wechselt zur letzten Seite"
+  visibility:
+    showPets: '&7Haustiere anzeigen'
+    hidePets: '&7Haustiere verstecken'
+  sort:
+    none: "Keine"
+    level_highest: "Höchstes Level"
+    level_lowest: "Niedrigstes Level"
+    type: "Typ"
+    name: "Name"
+  commandIsNotForPlayers: "Dieser Befehl ist nicht für Spieler"
+  serverMustBeEmpty: "Der Server muss leer sein"
+  convert:
+    success: "&8[&a✓&8]&7 Erfolgreich %name% konvertiert!"
+    failed: "&8[&c✖&8]&7 Fehler beim Konvertieren von %name% (%uuid%)!"
+    start: "Starte Konvertierung..."
+    end: "Konvertierung abgeschlossen!"

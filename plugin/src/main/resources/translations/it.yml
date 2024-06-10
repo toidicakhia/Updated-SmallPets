@@ -1,0 +1,104 @@
+translations:
+  noPerms: Non hai il permesso di farlo!
+  pets_disabled_world: "Gli pets sono disabili in questo mondo"
+  petSpawned: Il vostro pet è stato convocato
+  petDespawned: Il tuo pet è stato disperato
+  petNotUnlocked: Questo pet non è stato sbloccato
+  notInteger: Numero deve essere numero intero
+  experienceSummary: '&fSommario dell''esperienza'
+  levelupText: '&eIl tuo pet è ora di livello &6&l%pet_level%&e!'
+  nextLevel: '&eIl tuo pet ha bisogno di &6%exp_next_level%&6 xp &eper raggiungere
+    il livello &6%pet_next_level%&e'
+  petUnlock: Sbloccato %pet_type% pet!
+  clickToSelect: '&6CLICCA PER SELEZIONARE'
+  clickToDeselect: '&cCLICCA PER DESELEZIONARE'
+  rightClickToUnlock: '&6CLICK DESTRO PER SBLOCCARE'
+  givePetSender: Dato il %pet_type% pet a %player%!
+  givePetReceiver: Hai ricevuto il %pet_type% pet da %sender%!
+  removePetSender: Il %pet_type% pet è stato preso da %player%!
+  removePetReceiver: Il vostro %pet_type% pet è stato preso da %sender%!
+  playerIsntOnline: Il giocatore non è online!
+  userDataNotFound: Dati utente non sono stati trovati!
+  commandIsOnlyForPlayers: Questo command è solo per giocatori!
+  reloaded: Ricaricato %type%
+  maxLevel: '&d&kS&d LIVELLO MASSIMO &d&kS'
+  experienceMultiplier: Moltiplicatore di esperienza
+  stats: Statistiche
+  experienceBooster: Esperienza booster
+  petNameFormat: '&8[%level%&8] &7%player_name%''s '
+  petNameFormatTwoS: '&8[%level%&8] &7%player_name%'' '
+  pet:
+    tiger: tigre
+    penguin: pinguino
+    monkey: scimmia
+    panda: panda
+    fish: pesce
+    skeleton: scheletro
+    silverfish: pesce d'argento
+  ability:
+    speed_in_biome_ability:
+      name: Habitat naturale
+      description: '&7Ti rende più veloce nei %biomes% &7biomi'
+    damage_ability:
+      description: '&7Deal &c+%extraStat%%&7 più danni!'
+    faster_mining_speed_ability:
+      description: '&7Ti dà un &cfretta &c%extraStat% &7effetto'
+      name: Addestrato
+    unbreakable_bow_ability:
+      description: '&7L'' arco non si danneggia quando si spara'
+      name: Esperto
+    heal_while_in_water_ability:
+      description: '&7Dà un &cregenerazione &c%extraStat% &7effetto mentre sei nel acqua'
+      name: Habitat naturale
+    health_ability:
+      description: '&7Ottenere &a+%extraStat%&7 più salute!'
+    aurelium_skills_health_ability:
+      description: '&7Ottenere &a+%extraStat%&7 più salute!'
+    water_speed_ability:
+      description: '&7Cammina &a+%extraStat%%&7 più veloce in acqua!'
+    dont_consume_arrow_ability:
+      description: '&c%extraStat%% &7possibilità di non consumare le frecce'
+  petType:
+    foraging: Foraggio pet
+    fishing: Pesca pet
+    mining: Mineria pet
+    farming: Agricultura pet
+    combat: Combattimento pet
+  convertToItem: '&7Convertire in voce'
+  savingLanguage: '&7Sto salvando %language%...'
+  petNameWithoutOwner: '&7[%level%&7] '
+  inventoryFull: '&7Il vostro inventario è pieno'
+  savedLanguage: '&7Salvato %language%!'
+  givePetUnlockItemReceiver: "Avete ricevuto il %pet_type% unlock item da %sender%!"
+  givePetUnlockItemSender: "Dato il %pet_type% unlock item a %player%!"
+  petNotRegistered: "Pet non registrato"
+  inventory:
+    name: "&eSmallPets"
+    recipebook:
+      description: '&cNon ancora implementato!'
+      name: '&6Ricettario'
+    sort:
+      name: '&6Ordina'
+      description: '&cNon ancora implementato!'
+    next:
+      name: "&7Prossimo"
+      description: "&7Passa alla pagina successiva"
+    previous:
+      name: "&7Precedente"
+      description: "&7Passa alla pagina precedente"
+  visibility:
+    showPets: '&7Mostra pets'
+    hidePets: '&7Nascondi pets'
+  sort:
+    none: "Nessuna"
+    level_highest: "Livello più alto"
+    level_lowest: "Livello più basso"
+    type: "Genere"
+    name: "Nome"
+  commandIsNotForPlayers: "Questo comando non è per i giocatori"
+  serverMustBeEmpty: "Il server deve essere vuoto"
+  convert:
+    success: "&8[&a✓&8]&7 %name% convertito con successo!"
+    failed: "&8[&c✖&8]&7 Errore durante la conversione di %name% (%uuid%)!"
+    start: "Iniziare la conversione..."
+    end: "Conversione completata!"

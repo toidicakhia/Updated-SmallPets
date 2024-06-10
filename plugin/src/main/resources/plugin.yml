@@ -1,0 +1,15 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: SmallCode
+api-version: 1.13
+softdepend:
+  - ProtocolLib
+  - PlaceholderAPI
+  - AureliumSkills
+  - WorldGuard
+main: it.smallcode.smallpets.SmallPets
+commands:
+  smallpets:
+    aliases:
+      - sp
